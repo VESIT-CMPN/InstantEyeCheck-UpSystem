@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="act_ver_margin">16dp</dimen>
+    <dimen name="act_hor_margin">16dp</dimen>
+</resources>

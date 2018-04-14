@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_a13"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:background="@android:color/white"
+    tools:context="com.example.admin.instanteyecheck_upsystem.a13"
+    >
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent">
+
+        <TextView
+            android:text="Disease Name:"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView1_a13"
+            android:textColor="@color/colorPrimary"
+            android:textSize="25dp"
+            android:paddingLeft="15dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Dacryocystitis /stye"
+            android:id="@+id/textView2_a13"
+            android:layout_below="@+id/textView1_a13"
+            android:layout_alignParentStart="true"
+            android:textSize="25dp"
+            android:paddingLeft="15dp"
+            android:paddingTop="20dp"
+            android:textColor="#000000" />
+        <ImageView
+            android:id="@+id/image1"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_alignParentTop="true"
+            android:layout_marginRight="18dp"
+            android:src="@drawable/stye3" />
+        <TextView
+            android:text="Symptoms:"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView3_a13"
+            android:textSize="25dp"
+            android:paddingLeft="15dp"
+            android:layout_below="@+id/textView2_a13"
+            android:textColor="@color/colorPrimary"
+            android:paddingTop="20dp" />
+
+        <TextView
+            android:text="Pain in the eyes, Excessive tearing, Pus like discharge, Pain in the eyes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView4_a13"
+            android:textSize="25dp"
+            android:paddingLeft="15dp"
+            android:textColor="#000000"
+            android:paddingTop="20dp"
+            android:layout_below="@+id/textView3_a13"
+            android:layout_alignStart="@+id/textView2_a13" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Causes:"
+            android:id="@+id/textView5_a13"
+            android:textSize="25dp"
+            android:paddingLeft="15dp"
+            android:paddingTop="15dp"
+            android:textColor="@color/colorPrimary"
+            android:layout_alignTop="@+id/textView4_a13"
+            android:layout_alignParentStart="true" />
+        <TextView
+            android:text="Common in infants ,Nasal abscess, Tumors in sinus, Bacteria that causes strep, Associated with conjunctivitis"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView6_a13"
+            android:textSize="25dp"
+            android:paddingLeft="15dp"
+            android:textColor="#000000"
+            android:paddingTop="20dp"
+            android:layout_below="@+id/textView5_a13"
+            android:layout_alignStart="@+id/textView2_a13" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Treatment:"
+            android:id="@+id/textView7_a13"
+            android:textSize="25dp"
+            android:paddingLeft="15dp"
+            android:paddingTop="15dp"
+            android:textColor="@color/colorPrimary"
+            android:layout_alignTop="@+id/textView6_a13"
+            android:layout_alignParentStart="true" />
+        <TextView
+            android:text="Dye appearance test, Pain relievers, Home remedies like aloe vera, honey moisturising help in soothing the eyes."
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView8_a13"
+            android:textSize="25dp"
+            android:paddingLeft="15dp"
+            android:textColor="#000000"
+            android:paddingTop="20dp"
+            android:layout_below="@+id/textView7_a13"
+            android:layout_alignStart="@+id/textView7_a13" />
+
+    </LinearLayout>
+</ScrollView>

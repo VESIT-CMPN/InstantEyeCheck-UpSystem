@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:baselineAligned="false"
+    android:orientation="vertical"
+    tools:context="com.example.admin.instanteyecheck_upsystem.feedback">
+
+
+    <Button
+        android:id="@+id/Sbutton1"
+        android:layout_width="250dp"
+        android:layout_height="100dp"
+        android:textSize="24dp"
+        android:background="@drawable/bg_button"
+        android:textColor="#ffffff"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="75dp"
+        android:onClick="onSendClick"
+        android:text="Rate our App" />
+
+    <Button
+        android:id="@+id/Sbutton"
+        android:layout_width="250dp"
+        android:layout_height="100dp"
+        android:textSize="24dp"
+        android:background="@drawable/bg_button"
+        android:textColor="#ffffff"
+        android:layout_below="@+id/Sbutton1"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="100dp"
+        android:onClick="onSendClick1"
+        android:text="Send Feedback" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="250dp"
+        android:layout_height="100dp"
+        android:textSize="24dp"
+        android:layout_below="@+id/Sbutton"
+        android:background="@drawable/bg_button"
+        android:textColor="#ffffff"
+        android:text="Share App"
+        android:onClick="share"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="100dp"
+        tools:ignore="OnClick" />
+</RelativeLayout>

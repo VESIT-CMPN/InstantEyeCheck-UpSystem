@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    tools:context="com.example.admin.instanteyecheck_upsystem.aboutus">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#fff"
+        android:elevation="4dp"
+        android:padding="16dp">
+        <ImageView
+            android:id="@+id/cardview_image"
+            android:layout_width="75dp"
+            android:layout_height="100dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginRight="18dp"
+            android:src="@drawable/anisha" />
+        <TextView
+            android:id="@+id/cardview_list_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@+id/cardview_image"
+            android:paddingBottom="5dp"
+            android:text="Anisha Lalwani"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/short_description"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/cardview_list_title"
+            android:layout_toRightOf="@+id/cardview_image"
+            android:text="Email ID: a@gmail.com"
+            android:textColor="#8b8b8b" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#fff"
+        android:elevation="4dp"
+        android:layout_marginTop="155dp"
+        android:padding="16dp">
+
+        <ImageView
+            android:id="@+id/cardview_image1"
+            android:layout_width="75dp"
+            android:layout_height="105dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginRight="18dp"
+            android:src="@drawable/aarti" />
+
+        <TextView
+            android:id="@+id/cardview_list_title1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@+id/cardview_image1"
+            android:paddingBottom="5dp"
+            android:text="Aarti Nihalani"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/short_description1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/cardview_list_title1"
+            android:layout_toRightOf="@+id/cardview_image1"
+            android:text="Email ID: b@gmail.com."
+            android:textColor="#8b8b8b" />
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#fff"
+        android:elevation="4dp"
+        android:padding="16dp"
+        android:layout_marginTop="320dp">
+        <ImageView
+            android:id="@+id/cardview_image2"
+            android:layout_width="75dp"
+            android:layout_height="100dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginRight="18dp"
+            android:src="@drawable/sneha" />
+        <TextView
+            android:id="@+id/cardview_list_title2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@+id/cardview_image2"
+            android:paddingBottom="5dp"
+            android:text="Sneha Khemani"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/short_description2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/cardview_list_title2"
+            android:layout_toRightOf="@+id/cardview_image2"
+            android:text="Email ID: c@gmail.com."
+            android:textColor="#8b8b8b" />
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#fff"
+        android:layout_marginTop="475dp"
+        android:elevation="4dp"
+        android:padding="16dp">
+
+        <ImageView
+            android:id="@+id/cardview_image3"
+            android:layout_width="75dp"
+            android:layout_height="100dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginRight="18dp"
+            android:src="@drawable/lakhan" />
+
+
+        <TextView
+            android:id="@+id/cardview_list_title3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@+id/cardview_image3"
+            android:paddingBottom="5dp"
+            android:text="Lakhan Bhagnani"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/short_description3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/cardview_list_title3"
+            android:layout_toRightOf="@+id/cardview_image3"
+            android:text="Email ID: d@gmail.com"
+            android:textColor="#8b8b8b" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

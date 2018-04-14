@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "C:\\Users\\deepak\\AndroidStudioProjects\\InstantEyeCheck-UpSystem\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout-sw600dp-v13\\design_layout_snackbar.xml",
+        "source": "C:\\Users\\deepak\\.gradle\\caches\\transforms-1\\files-1.1\\design-26.1.0.aar\\9ea0c41d426abbe211e095c517ecbec7\\res\\layout-sw600dp-v13\\design_layout_snackbar.xml"
+    },
+    {
+        "merged": "C:\\Users\\anisha\\AndroidStudioProjects\\InstantEyeCheck-UpSystem\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout-sw600dp-v13\\design_layout_snackbar.xml",
+        "source": "C:\\Users\\anisha\\.gradle\\caches\\transforms-1\\files-1.1\\design-26.1.0.aar\\003b6c136ff84820e55cfb454b8bc2c5\\res\\layout-sw600dp-v13\\design_layout_snackbar.xml"
+    }
+]

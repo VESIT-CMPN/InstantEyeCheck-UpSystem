@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_opengallery"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:background="@android:color/white"
+    tools:context="com.example.admin.instanteyecheck_upsystem.opengallery"
+    >
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.admin.instanteyecheck_upsystem.opengallery">
+
+        <Button
+            android:layout_width="300dp"
+            android:layout_height="75dp"
+            android:text="Select image from gallery"
+            android:textAlignment="center"
+            android:id="@+id/button1"
+            android:textSize="18dp"
+            android:background="#1A51C0"
+            android:textColor="#ffffff"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp" />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"/>
+
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="100dp"
+        android:text="Next"
+        android:id="@+id/next2"
+        android:textSize="24dp"
+        android:background="#1A51C0"
+        android:textColor="#ffffff"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="500dp" />
+
+    </RelativeLayout>
+
+
+</ScrollView>

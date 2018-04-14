@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "285506275241",
+    "firebase_url": "https://instant-95e5f.firebaseio.com",
+    "project_id": "instant-95e5f",
+    "storage_bucket": "instant-95e5f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:285506275241:android:001afbe49670cdb8",
+        "android_client_info": {
+          "package_name": "com.example.admin.instanteyecheck_upsystem"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "285506275241-s8pkbv0avero26nn89ja23v70li5m26n.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCSxlHz02BffQsbYHPcIcpyeRvkyCTZVQc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

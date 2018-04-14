@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.admin.instanteyecheck_upsystem.howtouseapp">
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/activity_howtouseapp"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:background="@android:color/white"
+        tools:context="com.example.admin.instanteyecheck_upsystem.howtouseapp"
+        >
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent">
+
+    <TextView
+        android:text="How To Use Our App"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView1"
+        android:textColor="@color/colorPrimary"
+        android:textSize="30dp"
+        android:paddingLeft="55dp"/>
+
+        <TextView
+            android:text="1.Choose Questionnaire and give answers as per your symptoms OR Select Image Analysis,to upload your photo To know from which eye disease you are suffering from and its Treatment."
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView2"
+            android:textColor="#000000"
+            android:layout_below="@id/textView1"
+            android:paddingTop="20dp"
+            android:textSize="25dp"/>
+
+         <TextView
+            android:text="2.You can learn about various Diseases with its causes,symptoms and treatments."
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView3"
+            android:textColor="#000000"
+             android:layout_below="@id/textView2"
+             android:paddingTop="20dp"
+            android:textSize="25dp"/>
+
+        <TextView
+            android:text="3.You can search for various Hospitals available within 1 km from your current location."
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView4"
+            android:textColor="#000000"
+            android:layout_below="@id/textView3"
+            android:paddingTop="20dp"
+            android:textSize="25dp"/>
+
+
+        <TextView
+            android:text="(Internet Connection required and current location should be ON)"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView5"
+            android:textColor="#000000"
+            android:layout_below="@id/textView4"
+            android:textSize="25dp"/>
+
+
+        <TextView
+            android:text="4.If you have already used our app then you can also see your history and progress for same disease."
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView6"
+            android:textColor="#000000"
+            android:layout_below="@id/textView5"
+            android:paddingTop="20dp"
+            android:textSize="25dp"/>
+
+
+    </LinearLayout>
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>

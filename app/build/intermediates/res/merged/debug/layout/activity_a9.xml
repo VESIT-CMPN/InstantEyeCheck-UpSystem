@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_a9"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:background="@android:color/white"
+    tools:context="com.example.admin.instanteyecheck_upsystem.a9"
+    >
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent">
+
+        <TextView
+            android:text="Disease Name:"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView1_a9"
+            android:textColor="@color/colorPrimary"
+            android:textSize="25dp"
+            android:paddingLeft="15dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bacterial conjunctivitis"
+            android:id="@+id/textView2_a9"
+            android:layout_below="@+id/textView1_a9"
+            android:layout_alignParentStart="true"
+            android:textSize="25dp"
+            android:paddingLeft="15dp"
+            android:paddingTop="20dp"
+            android:textColor="#000000" />
+
+        <ImageView
+            android:id="@+id/image1"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginRight="18dp"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/bacterialconjunctivitis1" />
+        <TextView
+            android:text="Symptoms:"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView3_a9"
+            android:textSize="25dp"
+            android:paddingLeft="15dp"
+            android:layout_below="@+id/textView2_a9"
+            android:textColor="@color/colorPrimary"
+            android:paddingTop="20dp" />
+
+        <TextView
+            android:text="Red eyes, Swollen eyes, Pus like discharge, Sensitive to lights."
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView4_a9"
+            android:textSize="25dp"
+            android:paddingLeft="15dp"
+            android:textColor="#000000"
+            android:paddingTop="20dp"
+            android:layout_below="@+id/textView3_a9"
+            android:layout_alignStart="@+id/textView2_a9" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Causes:"
+            android:id="@+id/textView5_a9"
+            android:textSize="25dp"
+            android:paddingLeft="15dp"
+            android:paddingTop="15dp"
+            android:textColor="@color/colorPrimary"
+            android:layout_alignTop="@+id/textView4_a9"
+            android:layout_alignParentStart="true" />
+        <TextView
+            android:text="Pollen in the air, Allergies, Haemophilus influenzae."
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView6_a9"
+            android:textSize="25dp"
+            android:paddingLeft="15dp"
+            android:textColor="#000000"
+            android:paddingTop="20dp"
+            android:layout_below="@+id/textView5_a9"
+            android:layout_alignStart="@+id/textView2_a9" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Treatment:"
+            android:id="@+id/textView7_a9"
+            android:textSize="25dp"
+            android:paddingLeft="15dp"
+            android:paddingTop="15dp"
+            android:textColor="@color/colorPrimary"
+            android:layout_alignTop="@+id/textView6_a9"
+            android:layout_alignParentStart="true" />
+        <TextView
+            android:text="Antibiotics like Ofloxacin,Gatifloxacin,Ciprofloxacin,Azithromysin."
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView8_a9"
+            android:textSize="25dp"
+            android:paddingLeft="15dp"
+            android:textColor="#000000"
+            android:paddingTop="20dp"
+            android:layout_below="@+id/textView7_a9"
+            android:layout_alignStart="@+id/textView7_a9" />
+
+    </LinearLayout>
+</ScrollView>

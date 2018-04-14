@@ -1,0 +1,378 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.admin.instanteyecheck_upsystem"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="19"
+        android:targetSdkVersion="26" />
+
+    <meta-data
+        android:name="com.google.android.gms.vision.DEPENDENCIES"
+        android:value="face" />
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="com.example.mymapsappsdirection.permission.MAPS_RECEIVE" />
+
+    <!-- Include required permissions for Google Maps API to run. -->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <uses-feature
+        android:glEsVersion="0x00020000"
+        android:required="true" />
+
+    <uses-permission android:name="android.permission.WAKE_LOCK" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+
+    <permission
+        android:name="com.example.admin.instanteyecheck_upsystem.permission.C2D_MESSAGE"
+        android:protectionLevel="signature" />
+
+    <uses-permission android:name="com.example.admin.instanteyecheck_upsystem.permission.C2D_MESSAGE" />
+
+    <application
+        android:name="android.support.multidex.MultiDexApplication"
+        android:allowBackup="true"
+        android:debuggable="true"
+        android:icon="@drawable/image1"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:supportsRtl="true"
+        android:theme="@style/MyTheme" >
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyAiTr9O_C2YrDL-DphzNHWRZIikZUca82E" />
+
+        <activity
+            android:name="com.example.admin.instanteyecheck_upsystem.question1"
+            android:parentActivityName="com.example.admin.instanteyecheck_upsystem.navigation" />
+        <activity
+            android:name="com.example.admin.instanteyecheck_upsystem.question2a"
+            android:parentActivityName="com.example.admin.instanteyecheck_upsystem.navigation" />
+        <activity
+            android:name="com.example.admin.instanteyecheck_upsystem.question2b"
+            android:parentActivityName="com.example.admin.instanteyecheck_upsystem.navigation" />
+        <activity
+            android:name="com.example.admin.instanteyecheck_upsystem.question3a"
+            android:parentActivityName="com.example.admin.instanteyecheck_upsystem.navigation" />
+        <activity
+            android:name="com.example.admin.instanteyecheck_upsystem.question3b"
+            android:parentActivityName="com.example.admin.instanteyecheck_upsystem.navigation" />
+        <activity
+            android:name="com.example.admin.instanteyecheck_upsystem.question4a"
+            android:parentActivityName="com.example.admin.instanteyecheck_upsystem.navigation" />
+        <activity
+            android:name="com.example.admin.instanteyecheck_upsystem.question4b"
+            android:parentActivityName="com.example.admin.instanteyecheck_upsystem.navigation" />
+        <activity
+            android:name="com.example.admin.instanteyecheck_upsystem.question5b"
+            android:parentActivityName="com.example.admin.instanteyecheck_upsystem.navigation" />
+        <activity
+            android:name="com.example.admin.instanteyecheck_upsystem.question6a"
+            android:parentActivityName="com.example.admin.instanteyecheck_upsystem.navigation" />
+        <activity
+            android:name="com.example.admin.instanteyecheck_upsystem.acutegalucoma"
+            android:parentActivityName="com.example.admin.instanteyecheck_upsystem.navigation" />
+        <activity
+            android:name="com.example.admin.instanteyecheck_upsystem.keratitis"
+            android:parentActivityName="com.example.admin.instanteyecheck_upsystem.navigation" />
+        <activity
+            android:name="com.example.admin.instanteyecheck_upsystem.question3c"
+            android:parentActivityName="com.example.admin.instanteyecheck_upsystem.navigation" />
+        <activity
+            android:name="com.example.admin.instanteyecheck_upsystem.question7b"
+            android:parentActivityName="com.example.admin.instanteyecheck_upsystem.navigation" />
+        <activity
+            android:name="com.example.admin.instanteyecheck_upsystem.question7a"
+            android:parentActivityName="com.example.admin.instanteyecheck_upsystem.navigation" />
+        <activity
+            android:name="com.example.admin.instanteyecheck_upsystem.question8a"
+            android:parentActivityName="com.example.admin.instanteyecheck_upsystem.navigation" />
+        <activity
+            android:name="com.example.admin.instanteyecheck_upsystem.question8b"
+            android:parentActivityName="com.example.admin.instanteyecheck_upsystem.navigation" />
+        <activity
+            android:name="com.example.admin.instanteyecheck_upsystem.question8c"
+            android:parentActivityName="com.example.admin.instanteyecheck_upsystem.navigation" />
+        <activity
+            android:name="com.example.admin.instanteyecheck_upsystem.question12"
+            android:parentActivityName="com.example.admin.instanteyecheck_upsystem.navigation" />
+        <activity
+            android:name="com.example.admin.instanteyecheck_upsystem.question13"
+            android:parentActivityName="com.example.admin.instanteyecheck_upsystem.navigation" />
+        <activity
+            android:name="com.example.admin.instanteyecheck_upsystem.question14"
+            android:parentActivityName="com.example.admin.instanteyecheck_upsystem.navigation" />
+        <activity
+            android:name="com.example.admin.instanteyecheck_upsystem.styechalazion"
+            android:parentActivityName="com.example.admin.instanteyecheck_upsystem.navigation" />
+        <activity
+            android:name="com.example.admin.instanteyecheck_upsystem.allergicrhinitis"
+            android:parentActivityName="com.example.admin.instanteyecheck_upsystem.navigation" />
+        <activity
+            android:name="com.example.admin.instanteyecheck_upsystem.dacryocystits"
+            android:parentActivityName="com.example.admin.instanteyecheck_upsystem.navigation" />
+        <activity
+            android:name="com.example.admin.instanteyecheck_upsystem.question9a"
+            android:parentActivityName="com.example.admin.instanteyecheck_upsystem.navigation" />
+        <activity
+            android:name="com.example.admin.instanteyecheck_upsystem.question9b"
+            android:parentActivityName="com.example.admin.instanteyecheck_upsystem.navigation" />
+        <activity
+            android:name="com.example.admin.instanteyecheck_upsystem.question9c"
+            android:parentActivityName="com.example.admin.instanteyecheck_upsystem.navigation" />
+        <activity
+            android:name="com.example.admin.instanteyecheck_upsystem.question9d"
+            android:parentActivityName="com.example.admin.instanteyecheck_upsystem.navigation" />
+        <activity
+            android:name="com.example.admin.instanteyecheck_upsystem.question9e"
+            android:parentActivityName="com.example.admin.instanteyecheck_upsystem.navigation" />
+        <activity
+            android:name="com.example.admin.instanteyecheck_upsystem.question10"
+            android:parentActivityName="com.example.admin.instanteyecheck_upsystem.navigation" />
+        <activity
+            android:name="com.example.admin.instanteyecheck_upsystem.question10a"
+            android:parentActivityName="com.example.admin.instanteyecheck_upsystem.navigation" />
+        <activity
+            android:name="com.example.admin.instanteyecheck_upsystem.question10c"
+            android:parentActivityName="com.example.admin.instanteyecheck_upsystem.navigation" />
+        <activity
+            android:name="com.example.admin.instanteyecheck_upsystem.question11a"
+            android:parentActivityName="com.example.admin.instanteyecheck_upsystem.navigation" />
+        <activity
+            android:name="com.example.admin.instanteyecheck_upsystem.question11b"
+            android:parentActivityName="com.example.admin.instanteyecheck_upsystem.navigation" />
+        <activity
+            android:name="com.example.admin.instanteyecheck_upsystem.question11c"
+            android:parentActivityName="com.example.admin.instanteyecheck_upsystem.navigation" />
+        <activity
+            android:name="com.example.admin.instanteyecheck_upsystem.measles"
+            android:parentActivityName="com.example.admin.instanteyecheck_upsystem.navigation" />
+        <activity
+            android:name="com.example.admin.instanteyecheck_upsystem.question2"
+            android:parentActivityName="com.example.admin.instanteyecheck_upsystem.navigation" />
+        <activity
+            android:name="com.example.admin.instanteyecheck_upsystem.dryeyessyndrome"
+            android:parentActivityName="com.example.admin.instanteyecheck_upsystem.navigation" />
+        <activity
+            android:name="com.example.admin.instanteyecheck_upsystem.allergyanaphylaxis"
+            android:parentActivityName="com.example.admin.instanteyecheck_upsystem.navigation" />
+        <activity
+            android:name="com.example.admin.instanteyecheck_upsystem.bacterialconjunctivitis"
+            android:parentActivityName="com.example.admin.instanteyecheck_upsystem.navigation" />
+        <activity
+            android:name="com.example.admin.instanteyecheck_upsystem.bellspalsy"
+            android:parentActivityName="com.example.admin.instanteyecheck_upsystem.navigation" />
+        <activity
+            android:name="com.example.admin.instanteyecheck_upsystem.blepharitis"
+            android:parentActivityName="com.example.admin.instanteyecheck_upsystem.navigation" />
+        <activity
+            android:name="com.example.admin.instanteyecheck_upsystem.cornealulcer"
+            android:parentActivityName="com.example.admin.instanteyecheck_upsystem.navigation" />
+        <activity
+            android:name="com.example.admin.instanteyecheck_upsystem.viralconjunctivitis"
+            android:parentActivityName="com.example.admin.instanteyecheck_upsystem.navigation" />
+        <activity
+            android:name="com.example.admin.instanteyecheck_upsystem.LogoActivity"
+            android:theme="@style/MyTheme.NoActionBar" />
+        <activity
+            android:name="com.example.admin.instanteyecheck_upsystem.navigation"
+            android:configChanges="orientation"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/MyTheme.NoActionBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.example.admin.instanteyecheck_upsystem.signlogin" />
+        <activity android:name="com.example.admin.instanteyecheck_upsystem.signup" />
+        <activity android:name="com.example.admin.instanteyecheck_upsystem.login" />
+        <activity
+            android:name="com.example.admin.instanteyecheck_upsystem.image"
+            android:parentActivityName="com.example.admin.instanteyecheck_upsystem.navigation" />
+        <activity
+            android:name="com.example.admin.instanteyecheck_upsystem.diseasedetails"
+            android:parentActivityName="com.example.admin.instanteyecheck_upsystem.navigation" />
+        <activity
+            android:name="com.example.admin.instanteyecheck_upsystem.aboutus"
+            android:exported="true"
+            android:parentActivityName="com.example.admin.instanteyecheck_upsystem.navigation" />
+        <activity
+            android:name="com.example.admin.instanteyecheck_upsystem.feedback"
+            android:parentActivityName="com.example.admin.instanteyecheck_upsystem.navigation" />
+        <activity
+            android:name="com.example.admin.instanteyecheck_upsystem.opengallery"
+            android:parentActivityName="com.example.admin.instanteyecheck_upsystem.navigation" />
+        <activity
+            android:name="com.example.admin.instanteyecheck_upsystem.a1"
+            android:parentActivityName="com.example.admin.instanteyecheck_upsystem.navigation" />
+        <activity
+            android:name="com.example.admin.instanteyecheck_upsystem.a2"
+            android:parentActivityName="com.example.admin.instanteyecheck_upsystem.navigation" />
+        <activity
+            android:name="com.example.admin.instanteyecheck_upsystem.a3"
+            android:parentActivityName="com.example.admin.instanteyecheck_upsystem.navigation" />
+        <activity
+            android:name="com.example.admin.instanteyecheck_upsystem.a4"
+            android:parentActivityName="com.example.admin.instanteyecheck_upsystem.navigation" />
+        <activity
+            android:name="com.example.admin.instanteyecheck_upsystem.a5"
+            android:parentActivityName="com.example.admin.instanteyecheck_upsystem.navigation" />
+        <activity
+            android:name="com.example.admin.instanteyecheck_upsystem.a6"
+            android:parentActivityName="com.example.admin.instanteyecheck_upsystem.navigation" />
+        <activity
+            android:name="com.example.admin.instanteyecheck_upsystem.a7"
+            android:parentActivityName="com.example.admin.instanteyecheck_upsystem.navigation" />
+        <activity
+            android:name="com.example.admin.instanteyecheck_upsystem.a8"
+            android:parentActivityName="com.example.admin.instanteyecheck_upsystem.navigation" />
+        <activity
+            android:name="com.example.admin.instanteyecheck_upsystem.a9"
+            android:parentActivityName="com.example.admin.instanteyecheck_upsystem.navigation" />
+        <activity
+            android:name="com.example.admin.instanteyecheck_upsystem.a10"
+            android:parentActivityName="com.example.admin.instanteyecheck_upsystem.navigation" />
+        <activity
+            android:name="com.example.admin.instanteyecheck_upsystem.a11"
+            android:parentActivityName="com.example.admin.instanteyecheck_upsystem.navigation" />
+        <activity
+            android:name="com.example.admin.instanteyecheck_upsystem.a12"
+            android:parentActivityName="com.example.admin.instanteyecheck_upsystem.navigation" />
+        <activity
+            android:name="com.example.admin.instanteyecheck_upsystem.a13"
+            android:parentActivityName="com.example.admin.instanteyecheck_upsystem.navigation" />
+        <activity
+            android:name="com.example.admin.instanteyecheck_upsystem.a14"
+            android:parentActivityName="com.example.admin.instanteyecheck_upsystem.navigation" />
+        <activity
+            android:name="com.example.admin.instanteyecheck_upsystem.camera"
+            android:parentActivityName="com.example.admin.instanteyecheck_upsystem.navigation" />
+        <activity
+            android:name="com.example.admin.instanteyecheck_upsystem.acuteglaucomaresult"
+            android:exported="true" />
+        <activity
+            android:name="com.example.admin.instanteyecheck_upsystem.MapsActivity"
+            android:label="@string/title_activity_maps" />
+        <activity
+            android:name="com.example.admin.instanteyecheck_upsystem.detection"
+            android:exported="true"
+            android:parentActivityName="com.example.admin.instanteyecheck_upsystem.navigation" />
+        <activity
+            android:name="com.example.admin.instanteyecheck_upsystem.compare"
+            android:parentActivityName="com.example.admin.instanteyecheck_upsystem.navigation" />
+        <activity
+            android:name="com.example.admin.instanteyecheck_upsystem.keratitisresult"
+            android:exported="true" />
+        <activity
+            android:name="com.example.admin.instanteyecheck_upsystem.styeresult"
+            android:exported="true" />
+        <activity
+            android:name="com.example.admin.instanteyecheck_upsystem.allergicconjunctivitisresult"
+            android:exported="true" />
+        <activity android:name="com.example.admin.instanteyecheck_upsystem.blepharitisresult" />
+        <activity android:name="com.example.admin.instanteyecheck_upsystem.allergyanaphylaxisresult" />
+        <activity
+            android:name="com.example.admin.instanteyecheck_upsystem.history"
+            android:parentActivityName="com.example.admin.instanteyecheck_upsystem.navigation" />
+        <activity
+            android:name="com.example.admin.instanteyecheck_upsystem.progress"
+            android:parentActivityName="com.example.admin.instanteyecheck_upsystem.navigation" />
+        <activity
+            android:name="com.example.admin.instanteyecheck_upsystem.howtouseapp"
+            android:parentActivityName="com.example.admin.instanteyecheck_upsystem.navigation" />
+        <activity
+            android:name="com.example.admin.instanteyecheck_upsystem.welcome"
+            android:theme="@style/MyTheme.NoActionBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.example.admin.instanteyecheck_upsystem.docpat" />
+        <activity android:name="com.example.admin.instanteyecheck_upsystem.chatdoc" />
+        <activity android:name="com.example.admin.instanteyecheck_upsystem.signlogindoc" />
+        <activity android:name="com.example.admin.instanteyecheck_upsystem.signupdoc" />
+        <activity android:name="com.example.admin.instanteyecheck_upsystem.logindoc" />
+
+        <meta-data
+            android:name="android.support.VERSION"
+            android:value="26.1.0" />
+
+        <activity
+            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+            android:exported="false"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+
+        <receiver
+            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+            android:enabled="true"
+            android:exported="false" >
+        </receiver>
+        <receiver
+            android:name="com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver"
+            android:enabled="true"
+            android:exported="true"
+            android:permission="android.permission.INSTALL_PACKAGES" >
+            <intent-filter>
+                <action android:name="com.android.vending.INSTALL_REFERRER" />
+            </intent-filter>
+        </receiver>
+
+        <service
+            android:name="com.google.android.gms.measurement.AppMeasurementService"
+            android:enabled="true"
+            android:exported="false" />
+        <service
+            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+            android:enabled="true"
+            android:exported="false"
+            android:permission="android.permission.BIND_JOB_SERVICE" />
+
+        <receiver
+            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+            android:exported="true"
+            android:permission="com.google.android.c2dm.permission.SEND" >
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+
+                <category android:name="com.example.admin.instanteyecheck_upsystem" />
+            </intent-filter>
+        </receiver>
+        <!--
+             FirebaseInstanceIdService performs security checks at runtime,
+             no need for explicit permissions despite exported="true"
+        -->
+        <service
+            android:name="com.google.firebase.iid.FirebaseInstanceIdService"
+            android:exported="true" >
+            <intent-filter android:priority="-500" >
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+            </intent-filter>
+        </service>
+
+        <provider
+            android:name="com.google.firebase.provider.FirebaseInitProvider"
+            android:authorities="com.example.admin.instanteyecheck_upsystem.firebaseinitprovider"
+            android:exported="false"
+            android:initOrder="100" />
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+        <meta-data
+            android:name="android.arch.lifecycle.VERSION"
+            android:value="27.0.0-SNAPSHOT" />
+    </application>
+
+</manifest>

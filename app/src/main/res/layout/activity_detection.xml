@@ -1,0 +1,41 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".detection">
+    <Button
+        android:id="@+id/btnLoad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Load Photo"
+        android:background="@drawable/bg_button"
+        android:textColor="#ffffff"
+        android:layout_marginTop="20dp"/>
+
+    <Button
+        android:id="@+id/btnDetectFace"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Detect Eyes"
+        android:layout_below="@+id/btnLoad"
+        android:background="@drawable/bg_button"
+        android:textColor="#ffffff"
+        android:layout_marginTop="20dp"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imgview"
+        android:layout_below="@+id/btnDetectFace"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/next"
+        android:text="Next"
+        android:layout_below="@+id/imgview"
+        android:background="@drawable/bg_button"
+        android:textColor="#ffffff"
+        android:layout_marginTop="20dp"/>
+
+</RelativeLayout>

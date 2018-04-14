@@ -1,0 +1,11 @@
+#Internal package file, do not edit.
+#Thu Mar 29 10:41:59 IST 2018
+1.base=C\:\\Users\\anisha\\AndroidStudioProjects\\InstantEyeCheck-UpSystem\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\8
+0.baseType=DIRECTORY
+1.baseType=DIRECTORY
+count=2
+1.set=DEX
+0.path=classes2.dex
+0.set=DEX
+0.base=C\:\\Users\\anisha\\AndroidStudioProjects\\InstantEyeCheck-UpSystem\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\8
+1.path=classes.dex

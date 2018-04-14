@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "C:\\Users\\anisha\\AndroidStudioProjects\\InstantEyeCheck-UpSystem\\app\\build\\intermediates\\res\\merged\\debug\\anim-v21\\design_bottom_sheet_slide_out.xml",
+        "source": "C:\\Users\\anisha\\.gradle\\caches\\transforms-1\\files-1.1\\design-26.1.0.aar\\003b6c136ff84820e55cfb454b8bc2c5\\res\\anim-v21\\design_bottom_sheet_slide_out.xml"
+    },
+    {
+        "merged": "C:\\Users\\deepak\\AndroidStudioProjects\\InstantEyeCheck-UpSystem\\app\\build\\intermediates\\res\\merged\\debug\\anim-v21\\design_bottom_sheet_slide_out.xml",
+        "source": "C:\\Users\\deepak\\.gradle\\caches\\transforms-1\\files-1.1\\design-26.1.0.aar\\9ea0c41d426abbe211e095c517ecbec7\\res\\anim-v21\\design_bottom_sheet_slide_out.xml"
+    },
+    {
+        "merged": "C:\\Users\\deepak\\AndroidStudioProjects\\InstantEyeCheck-UpSystem\\app\\build\\intermediates\\res\\merged\\debug\\anim-v21\\design_bottom_sheet_slide_in.xml",
+        "source": "C:\\Users\\deepak\\.gradle\\caches\\transforms-1\\files-1.1\\design-26.1.0.aar\\9ea0c41d426abbe211e095c517ecbec7\\res\\anim-v21\\design_bottom_sheet_slide_in.xml"
+    },
+    {
+        "merged": "C:\\Users\\anisha\\AndroidStudioProjects\\InstantEyeCheck-UpSystem\\app\\build\\intermediates\\res\\merged\\debug\\anim-v21\\design_bottom_sheet_slide_in.xml",
+        "source": "C:\\Users\\anisha\\.gradle\\caches\\transforms-1\\files-1.1\\design-26.1.0.aar\\003b6c136ff84820e55cfb454b8bc2c5\\res\\anim-v21\\design_bottom_sheet_slide_in.xml"
+    }
+]

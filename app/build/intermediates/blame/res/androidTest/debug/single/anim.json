@@ -1,0 +1,130 @@
+[
+    {
+        "merged": "C:\\Users\\deepak\\AndroidStudioProjects\\InstantEyeCheck-UpSystem\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\design_snackbar_out.xml",
+        "source": "C:\\Users\\deepak\\.gradle\\caches\\transforms-1\\files-1.1\\design-26.1.0.aar\\9ea0c41d426abbe211e095c517ecbec7\\res\\anim\\design_snackbar_out.xml"
+    },
+    {
+        "merged": "C:\\Users\\deepak\\AndroidStudioProjects\\InstantEyeCheck-UpSystem\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\abc_shrink_fade_out_from_bottom.xml",
+        "source": "C:\\Users\\deepak\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\c7f53d65f2e4332cb2788f41fd27f15a\\res\\anim\\abc_shrink_fade_out_from_bottom.xml"
+    },
+    {
+        "merged": "C:\\Users\\anisha\\AndroidStudioProjects\\InstantEyeCheck-UpSystem\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\abc_slide_in_top.xml",
+        "source": "C:\\Users\\anisha\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\cfbc902a23e1d2dc255a9ee54eac1691\\res\\anim\\abc_slide_in_top.xml"
+    },
+    {
+        "merged": "C:\\Users\\anisha\\AndroidStudioProjects\\InstantEyeCheck-UpSystem\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\abc_slide_out_bottom.xml",
+        "source": "C:\\Users\\anisha\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\cfbc902a23e1d2dc255a9ee54eac1691\\res\\anim\\abc_slide_out_bottom.xml"
+    },
+    {
+        "merged": "C:\\Users\\anisha\\AndroidStudioProjects\\InstantEyeCheck-UpSystem\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\abc_popup_exit.xml",
+        "source": "C:\\Users\\anisha\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\cfbc902a23e1d2dc255a9ee54eac1691\\res\\anim\\abc_popup_exit.xml"
+    },
+    {
+        "merged": "C:\\Users\\anisha\\AndroidStudioProjects\\InstantEyeCheck-UpSystem\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\abc_shrink_fade_out_from_bottom.xml",
+        "source": "C:\\Users\\anisha\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\cfbc902a23e1d2dc255a9ee54eac1691\\res\\anim\\abc_shrink_fade_out_from_bottom.xml"
+    },
+    {
+        "merged": "C:\\Users\\anisha\\AndroidStudioProjects\\InstantEyeCheck-UpSystem\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\design_snackbar_out.xml",
+        "source": "C:\\Users\\anisha\\.gradle\\caches\\transforms-1\\files-1.1\\design-26.1.0.aar\\003b6c136ff84820e55cfb454b8bc2c5\\res\\anim\\design_snackbar_out.xml"
+    },
+    {
+        "merged": "C:\\Users\\deepak\\AndroidStudioProjects\\InstantEyeCheck-UpSystem\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\tooltip_exit.xml",
+        "source": "C:\\Users\\deepak\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\c7f53d65f2e4332cb2788f41fd27f15a\\res\\anim\\tooltip_exit.xml"
+    },
+    {
+        "merged": "C:\\Users\\deepak\\AndroidStudioProjects\\InstantEyeCheck-UpSystem\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\design_snackbar_in.xml",
+        "source": "C:\\Users\\deepak\\.gradle\\caches\\transforms-1\\files-1.1\\design-26.1.0.aar\\9ea0c41d426abbe211e095c517ecbec7\\res\\anim\\design_snackbar_in.xml"
+    },
+    {
+        "merged": "C:\\Users\\anisha\\AndroidStudioProjects\\InstantEyeCheck-UpSystem\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\abc_slide_in_bottom.xml",
+        "source": "C:\\Users\\anisha\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\cfbc902a23e1d2dc255a9ee54eac1691\\res\\anim\\abc_slide_in_bottom.xml"
+    },
+    {
+        "merged": "C:\\Users\\anisha\\AndroidStudioProjects\\InstantEyeCheck-UpSystem\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\design_bottom_sheet_slide_in.xml",
+        "source": "C:\\Users\\anisha\\.gradle\\caches\\transforms-1\\files-1.1\\design-26.1.0.aar\\003b6c136ff84820e55cfb454b8bc2c5\\res\\anim\\design_bottom_sheet_slide_in.xml"
+    },
+    {
+        "merged": "C:\\Users\\deepak\\AndroidStudioProjects\\InstantEyeCheck-UpSystem\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\design_bottom_sheet_slide_in.xml",
+        "source": "C:\\Users\\deepak\\.gradle\\caches\\transforms-1\\files-1.1\\design-26.1.0.aar\\9ea0c41d426abbe211e095c517ecbec7\\res\\anim\\design_bottom_sheet_slide_in.xml"
+    },
+    {
+        "merged": "C:\\Users\\deepak\\AndroidStudioProjects\\InstantEyeCheck-UpSystem\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\abc_popup_enter.xml",
+        "source": "C:\\Users\\deepak\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\c7f53d65f2e4332cb2788f41fd27f15a\\res\\anim\\abc_popup_enter.xml"
+    },
+    {
+        "merged": "C:\\Users\\anisha\\AndroidStudioProjects\\InstantEyeCheck-UpSystem\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\design_bottom_sheet_slide_out.xml",
+        "source": "C:\\Users\\anisha\\.gradle\\caches\\transforms-1\\files-1.1\\design-26.1.0.aar\\003b6c136ff84820e55cfb454b8bc2c5\\res\\anim\\design_bottom_sheet_slide_out.xml"
+    },
+    {
+        "merged": "C:\\Users\\anisha\\AndroidStudioProjects\\InstantEyeCheck-UpSystem\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\abc_fade_in.xml",
+        "source": "C:\\Users\\anisha\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\cfbc902a23e1d2dc255a9ee54eac1691\\res\\anim\\abc_fade_in.xml"
+    },
+    {
+        "merged": "C:\\Users\\anisha\\AndroidStudioProjects\\InstantEyeCheck-UpSystem\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\tooltip_exit.xml",
+        "source": "C:\\Users\\anisha\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\cfbc902a23e1d2dc255a9ee54eac1691\\res\\anim\\tooltip_exit.xml"
+    },
+    {
+        "merged": "C:\\Users\\deepak\\AndroidStudioProjects\\InstantEyeCheck-UpSystem\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\abc_fade_out.xml",
+        "source": "C:\\Users\\deepak\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\c7f53d65f2e4332cb2788f41fd27f15a\\res\\anim\\abc_fade_out.xml"
+    },
+    {
+        "merged": "C:\\Users\\deepak\\AndroidStudioProjects\\InstantEyeCheck-UpSystem\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\abc_slide_out_top.xml",
+        "source": "C:\\Users\\deepak\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\c7f53d65f2e4332cb2788f41fd27f15a\\res\\anim\\abc_slide_out_top.xml"
+    },
+    {
+        "merged": "C:\\Users\\deepak\\AndroidStudioProjects\\InstantEyeCheck-UpSystem\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\abc_slide_in_top.xml",
+        "source": "C:\\Users\\deepak\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\c7f53d65f2e4332cb2788f41fd27f15a\\res\\anim\\abc_slide_in_top.xml"
+    },
+    {
+        "merged": "C:\\Users\\anisha\\AndroidStudioProjects\\InstantEyeCheck-UpSystem\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\tooltip_enter.xml",
+        "source": "C:\\Users\\anisha\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\cfbc902a23e1d2dc255a9ee54eac1691\\res\\anim\\tooltip_enter.xml"
+    },
+    {
+        "merged": "C:\\Users\\anisha\\AndroidStudioProjects\\InstantEyeCheck-UpSystem\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\abc_popup_enter.xml",
+        "source": "C:\\Users\\anisha\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\cfbc902a23e1d2dc255a9ee54eac1691\\res\\anim\\abc_popup_enter.xml"
+    },
+    {
+        "merged": "C:\\Users\\deepak\\AndroidStudioProjects\\InstantEyeCheck-UpSystem\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\design_bottom_sheet_slide_out.xml",
+        "source": "C:\\Users\\deepak\\.gradle\\caches\\transforms-1\\files-1.1\\design-26.1.0.aar\\9ea0c41d426abbe211e095c517ecbec7\\res\\anim\\design_bottom_sheet_slide_out.xml"
+    },
+    {
+        "merged": "C:\\Users\\deepak\\AndroidStudioProjects\\InstantEyeCheck-UpSystem\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\abc_slide_in_bottom.xml",
+        "source": "C:\\Users\\deepak\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\c7f53d65f2e4332cb2788f41fd27f15a\\res\\anim\\abc_slide_in_bottom.xml"
+    },
+    {
+        "merged": "C:\\Users\\deepak\\AndroidStudioProjects\\InstantEyeCheck-UpSystem\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\abc_grow_fade_in_from_bottom.xml",
+        "source": "C:\\Users\\deepak\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\c7f53d65f2e4332cb2788f41fd27f15a\\res\\anim\\abc_grow_fade_in_from_bottom.xml"
+    },
+    {
+        "merged": "C:\\Users\\deepak\\AndroidStudioProjects\\InstantEyeCheck-UpSystem\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\tooltip_enter.xml",
+        "source": "C:\\Users\\deepak\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\c7f53d65f2e4332cb2788f41fd27f15a\\res\\anim\\tooltip_enter.xml"
+    },
+    {
+        "merged": "C:\\Users\\anisha\\AndroidStudioProjects\\InstantEyeCheck-UpSystem\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\abc_fade_out.xml",
+        "source": "C:\\Users\\anisha\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\cfbc902a23e1d2dc255a9ee54eac1691\\res\\anim\\abc_fade_out.xml"
+    },
+    {
+        "merged": "C:\\Users\\deepak\\AndroidStudioProjects\\InstantEyeCheck-UpSystem\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\abc_fade_in.xml",
+        "source": "C:\\Users\\deepak\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\c7f53d65f2e4332cb2788f41fd27f15a\\res\\anim\\abc_fade_in.xml"
+    },
+    {
+        "merged": "C:\\Users\\anisha\\AndroidStudioProjects\\InstantEyeCheck-UpSystem\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\abc_slide_out_top.xml",
+        "source": "C:\\Users\\anisha\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\cfbc902a23e1d2dc255a9ee54eac1691\\res\\anim\\abc_slide_out_top.xml"
+    },
+    {
+        "merged": "C:\\Users\\anisha\\AndroidStudioProjects\\InstantEyeCheck-UpSystem\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\design_snackbar_in.xml",
+        "source": "C:\\Users\\anisha\\.gradle\\caches\\transforms-1\\files-1.1\\design-26.1.0.aar\\003b6c136ff84820e55cfb454b8bc2c5\\res\\anim\\design_snackbar_in.xml"
+    },
+    {
+        "merged": "C:\\Users\\anisha\\AndroidStudioProjects\\InstantEyeCheck-UpSystem\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\abc_grow_fade_in_from_bottom.xml",
+        "source": "C:\\Users\\anisha\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\cfbc902a23e1d2dc255a9ee54eac1691\\res\\anim\\abc_grow_fade_in_from_bottom.xml"
+    },
+    {
+        "merged": "C:\\Users\\deepak\\AndroidStudioProjects\\InstantEyeCheck-UpSystem\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\abc_popup_exit.xml",
+        "source": "C:\\Users\\deepak\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\c7f53d65f2e4332cb2788f41fd27f15a\\res\\anim\\abc_popup_exit.xml"
+    },
+    {
+        "merged": "C:\\Users\\deepak\\AndroidStudioProjects\\InstantEyeCheck-UpSystem\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\abc_slide_out_bottom.xml",
+        "source": "C:\\Users\\deepak\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\c7f53d65f2e4332cb2788f41fd27f15a\\res\\anim\\abc_slide_out_bottom.xml"
+    }
+]

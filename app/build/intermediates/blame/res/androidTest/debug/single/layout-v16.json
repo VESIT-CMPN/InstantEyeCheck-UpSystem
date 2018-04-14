@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "C:\\Users\\deepak\\AndroidStudioProjects\\InstantEyeCheck-UpSystem\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout-v16\\notification_template_custom_big.xml",
+        "source": "C:\\Users\\deepak\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.1.0.aar\\61656b1ad376767b8601aac07453baa2\\res\\layout-v16\\notification_template_custom_big.xml"
+    },
+    {
+        "merged": "C:\\Users\\anisha\\AndroidStudioProjects\\InstantEyeCheck-UpSystem\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout-v16\\notification_template_custom_big.xml",
+        "source": "C:\\Users\\anisha\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.1.0.aar\\c3fd7275e8f290c7e03ccd6f1cd4b3ce\\res\\layout-v16\\notification_template_custom_big.xml"
+    }
+]

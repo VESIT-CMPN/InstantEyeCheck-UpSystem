@@ -1,0 +1,85 @@
+-injars 'C:\Users\anisha\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\003b6c136ff84820e55cfb454b8bc2c5\jars\classes.jar'(**.class)
+-injars 'C:\Users\anisha\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\cfbc902a23e1d2dc255a9ee54eac1691\jars\classes.jar'(**.class)
+-injars 'C:\Users\anisha\.gradle\caches\transforms-1\files-1.1\play-services-location-11.8.0.aar\ead36979bbdc45c1b1b3698a06d5327d\jars\classes.jar'(**.class)
+-injars 'C:\Users\anisha\.gradle\caches\modules-2\files-2.1\com.github.bumptech.glide\glide\3.7.0\9e9eeaf9948ee4d6c3ab354e8dc14368f16994a4\glide-3.7.0.jar'(**.class)
+-injars 'C:\Users\anisha\.gradle\caches\transforms-1\files-1.1\play-services-vision-11.8.0.aar\460448fd65ebffb5d3b4e116580324d5\jars\classes.jar'(**.class)
+-injars 'C:\Users\anisha\.gradle\caches\transforms-1\files-1.1\play-services-maps-11.8.0.aar\db8206897a12fd572688b63e8e404cdc\jars\classes.jar'(**.class)
+-injars 'C:\Users\anisha\.gradle\caches\transforms-1\files-1.1\play-services-vision-common-11.8.0.aar\8e9ea9483a316ee9f55e3e8fb86b74dd\jars\classes.jar'(**.class)
+-injars 'C:\Users\anisha\.gradle\caches\transforms-1\files-1.1\play-services-base-11.8.0.aar\efd022f7575b5c6c40a9e2d138eaf6b6\jars\classes.jar'(**.class)
+-injars 'C:\Users\anisha\.gradle\caches\transforms-1\files-1.1\firebase-core-11.8.0.aar\d7a3a44ec0f492b89e8fad7230c4a60b\jars\classes.jar'(**.class)
+-injars 'C:\Users\anisha\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.8.0.aar\05e18b8beeab784ecc726ccee3dc242c\jars\classes.jar'(**.class)
+-injars 'C:\Users\anisha\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-11.8.0.aar\7f0597ef23acf405a79f447e1e53e80f\jars\classes.jar'(**.class)
+-injars 'C:\Users\anisha\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.8.0.aar\aeefadb4e3219469b6b427bc64758695\jars\classes.jar'(**.class)
+-injars 'C:\Users\anisha\.gradle\caches\transforms-1\files-1.1\firebase-common-11.8.0.aar\ab7a8773a52ba67e1456bc0ac1b4fd7a\jars\classes.jar'(**.class)
+-injars 'C:\Users\anisha\.gradle\caches\transforms-1\files-1.1\play-services-tasks-11.8.0.aar\e1af17715f57756bf85c151a3f9294cb\jars\classes.jar'(**.class)
+-injars 'C:\Users\anisha\.gradle\caches\transforms-1\files-1.1\play-services-basement-11.8.0.aar\a32939370610e5776e944622c58926b3\jars\classes.jar'(**.class)
+-injars 'C:\Users\anisha\.gradle\caches\transforms-1\files-1.1\transition-26.1.0.aar\6eb20eed7b86c95ab23923c1d90856ff\jars\classes.jar'(**.class)
+-injars 'C:\Users\anisha\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\9266b06aede73b1003321ad35aeec040\jars\classes.jar'(**.class)
+-injars 'C:\Users\anisha\.gradle\caches\transforms-1\files-1.1\multidex-1.0.2.aar\da867b5d21ee5346992af3298b146699\jars\classes.jar'(**.class)
+-injars 'C:\Users\anisha\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\efb842f9b35ebea6776ee7d3f18ce8a8\jars\classes.jar'(**.class)
+-injars 'C:\Users\anisha\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\cd8e0407db5e1ac5b5e25ab9a17c686b\jars\classes.jar'(**.class)
+-injars 'C:\Users\anisha\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\9c0be9a5aa1c15630081274e9cb9d986\jars\classes.jar'(**.class)
+-injars 'C:\Users\anisha\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-26.1.0.aar\2f93ac2ae53845be12a6f234f12bdb43\jars\classes.jar'(**.class)
+-injars 'C:\Users\anisha\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\4c9803298a46724d1331f76ca54b489d\jars\classes.jar'(**.class)
+-injars 'C:\Users\anisha\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\227efaf868c74d25ed5e025564853767\jars\classes.jar'(**.class)
+-injars 'C:\Users\anisha\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\f526355ba33d2d8fa168326e36c965e7\jars\classes.jar'(**.class)
+-injars 'C:\Users\anisha\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\8ade0ebb549d9af37b045378c70267f0\jars\classes.jar'(**.class)
+-injars 'C:\Users\anisha\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\c3fd7275e8f290c7e03ccd6f1cd4b3ce\jars\classes.jar'(**.class)
+-injars 'C:\Users\anisha\.gradle\caches\modules-2\files-2.1\com.android.support\support-annotations\26.1.0\814258103cf26a15fcc26ecce35f5b7d24b73f8\support-annotations-26.1.0.jar'(**.class)
+-injars 'C:\Users\anisha\.gradle\caches\transforms-1\files-1.1\play-services-location-license-11.8.0.aar\2b35a3120dbb3c9ffac0924b42ca94c5\jars\classes.jar'(**.class)
+-injars 'C:\Users\anisha\.gradle\caches\transforms-1\files-1.1\play-services-vision-license-11.8.0.aar\8d22adc24e57e8a8e454e126a33f3e5c\jars\classes.jar'(**.class)
+-injars 'C:\Users\anisha\AppData\Local\Android\sdk\extras\m2repository\com\android\support\constraint\constraint-layout-solver\1.0.2\constraint-layout-solver-1.0.2.jar'(**.class)
+-injars 'C:\Users\anisha\.gradle\caches\transforms-1\files-1.1\play-services-maps-license-11.8.0.aar\4bf29a9380c1152d4ca7ad1c8b041115\jars\classes.jar'(**.class)
+-injars 'C:\Users\anisha\.gradle\caches\transforms-1\files-1.1\play-services-base-license-11.8.0.aar\d304ed10b0524b6bffdf6e3e326ecfc1\jars\classes.jar'(**.class)
+-injars 'C:\Users\anisha\.gradle\caches\transforms-1\files-1.1\play-services-basement-license-11.8.0.aar\2bd166f3f26c2f2984a2d3b1c95adf62\jars\classes.jar'(**.class)
+-injars 'C:\Users\anisha\.gradle\caches\transforms-1\files-1.1\play-services-tasks-license-11.8.0.aar\ff85c63f5ae37187ca1a6108f8c72adc\jars\classes.jar'(**.class)
+-injars 'C:\Users\anisha\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\85fe7d33916264d772f3e42d60bae8ef\jars\classes.jar'(**.class)
+-injars 'C:\Users\anisha\.gradle\caches\transforms-1\files-1.1\play-services-vision-common-license-11.8.0.aar\6d699b4df8e67cf5316e797a18671fef\jars\classes.jar'(**.class)
+-injars 'C:\Users\anisha\.gradle\caches\transforms-1\files-1.1\firebase-analytics-license-11.8.0.aar\a0728887f47c302b1bfb99de31e5cecc\jars\classes.jar'(**.class)
+-injars 'C:\Users\anisha\.gradle\caches\modules-2\files-2.1\android.arch.lifecycle\common\1.0.0\e414a4cb28434e25c4f6aa71426eb20cf4874ae9\common-1.0.0.jar'(**.class)
+-injars 'C:\Users\anisha\.gradle\caches\modules-2\files-2.1\android.arch.core\common\1.0.0\a2d487452376193fc8c103dd2b9bd5f2b1b44563\common-1.0.0.jar'(**.class)
+-injars 'C:\Users\anisha\.gradle\caches\transforms-1\files-1.1\firebase-common-license-11.8.0.aar\0d3df4020651c6b687f898fd1660b9ae\jars\classes.jar'(**.class)
+-injars 'C:\Users\anisha\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-license-11.8.0.aar\8bb60685b1be22a2d07f6de8cf439db9\jars\classes.jar'(**.class)
+-injars 'C:\Users\anisha\.gradle\caches\transforms-1\files-1.1\firebase-iid-license-11.8.0.aar\4a3bf1dde6c620adfb922a3d65d2427e\jars\classes.jar'(**.class)
+-injars 'C:\Users\anisha\AndroidStudioProjects\InstantEyeCheck-UpSystem\app\build\intermediates\classes\debug'(**.class)
+-outjars 'C:\Users\anisha\AndroidStudioProjects\InstantEyeCheck-UpSystem\app\build\intermediates\multi-dex\debug\componentClasses.jar'
+
+-libraryjars 'C:\Users\anisha\AppData\Local\Android\Sdk\build-tools\26.0.2\lib\shrinkedAndroid.jar'
+
+-forceprocessing
+-dontoptimize
+-dontobfuscate
+-dontusemixedcaseclassnames
+-dontpreverify
+-dontnote **
+-dontwarn **
+-printconfiguration 'C:\Users\anisha\AndroidStudioProjects\InstantEyeCheck-UpSystem\app\build\intermediates\multi-dex\debug\components.flags'
+
+
+# view AndroidManifest.xml #generated:39
+-keep class android.support.multidex.MultiDexApplication {
+    <init>(...);
+}
+
+-keep public class * extends android.app.Instrumentation {
+    <init>();
+}
+
+-keep public class * extends android.app.Application {
+    <init>();
+    void attachBaseContext(android.content.Context);
+}
+
+-keep public class * extends android.app.backup.BackupAgent {
+    <init>();
+}
+
+-keep public class * extends java.lang.annotation.Annotation {
+    <fields>;
+    <methods>;
+}
+
+-keep class com.android.tools.ir.** {
+    <fields>;
+    <methods>;
+}

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+    <RelativeLayout tools:context="com.example.admin.instanteyecheck_upsystem.measles"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:id="@+id/activity_question3b"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:paddingTop="100dp"
+        android:paddingLeft="15dp"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:id="@+id/textView2"
+        android:textColor="@color/colorAccent"
+        android:textSize="25dp"
+        android:text="Disease Name:"/>
+
+    <TextView
+        android:paddingTop="20dp"
+        android:paddingLeft="15dp"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:id="@+id/textView3"
+        android:textColor="#000000"
+        android:textSize="25dp"
+        android:text="Measles"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView2"/>
+
+    <TextView
+        android:paddingTop="20dp"
+        android:paddingLeft="15dp"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:id="@+id/textView6"
+        android:textColor="@color/colorAccent"
+        android:textSize="25dp"
+        android:text="Treatment:"
+        android:layout_below="@+id/textView3"/>
+
+    <TextView
+        android:paddingTop="20dp"
+        android:paddingLeft="15dp"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:id="@+id/textView4"
+        android:textColor="#000000"
+        android:textSize="25dp"
+        android:text="Medications- Analgesic to relieve pain."
+        android:layout_below="@+id/textView6"
+        android:layout_alignStart="@+id/textView2"/>
+    <TextView
+        android:paddingTop="20dp"
+        android:paddingLeft="15dp"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:id="@+id/textView19"
+        android:textColor="#000000"
+        android:textSize="25dp"
+        android:text="MMR vaccine can be used as a preventive measure"
+        android:layout_below="@+id/textView4"
+        android:layout_alignStart="@+id/textView2"/>
+
+    <TextView
+        android:paddingTop="15dp"
+        android:paddingLeft="15dp"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:id="@+id/textView5"
+        android:textColor="@color/colorPrimary"
+        android:textSize="25dp"
+        android:text="Disease Name and Treatment Advised:"
+        android:layout_alignParentStart="true"
+        android:layout_alignTop="@+id/textView2"/>
+
+</RelativeLayout>

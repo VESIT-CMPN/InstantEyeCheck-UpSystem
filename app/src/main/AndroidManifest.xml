@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.admin.instanteyecheck_upsystem"
+    android:versionName="1.0">
+
+    <meta-data
+        android:name="com.google.android.gms.vision.DEPENDENCIES"
+        android:value="face" />
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="com.example.mymapsappsdirection.permission.MAPS_RECEIVE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/image1"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:supportsRtl="true"
+        android:theme="@style/MyTheme">
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyAiTr9O_C2YrDL-DphzNHWRZIikZUca82E" />
+
+        <activity
+            android:name=".question1"
+            android:parentActivityName=".navigation" />
+        <activity
+            android:name=".question2a"
+            android:parentActivityName=".navigation" />
+        <activity
+            android:name=".question2b"
+            android:parentActivityName=".navigation" />
+        <activity
+            android:name=".question3a"
+            android:parentActivityName=".navigation" />
+        <activity
+            android:name=".question3b"
+            android:parentActivityName=".navigation" />
+        <activity
+            android:name=".question4a"
+            android:parentActivityName=".navigation" />
+        <activity
+            android:name=".question4b"
+            android:parentActivityName=".navigation" />
+        <activity
+            android:name=".question5b"
+            android:parentActivityName=".navigation" />
+        <activity
+            android:name=".question6a"
+            android:parentActivityName=".navigation" />
+        <activity
+            android:name=".acutegalucoma"
+            android:parentActivityName=".navigation" />
+        <activity
+            android:name=".keratitis"
+            android:parentActivityName=".navigation" />
+        <activity
+            android:name=".question3c"
+            android:parentActivityName=".navigation" />
+        <activity
+            android:name=".question7b"
+            android:parentActivityName=".navigation" />
+        <activity
+            android:name=".question7a"
+            android:parentActivityName=".navigation" />
+        <activity
+            android:name=".question8a"
+            android:parentActivityName=".navigation" />
+        <activity
+            android:name=".question8b"
+            android:parentActivityName=".navigation" />
+        <activity
+            android:name=".question8c"
+            android:parentActivityName=".navigation" />
+        <activity
+            android:name=".question12"
+            android:parentActivityName=".navigation" />
+        <activity
+            android:name=".question13"
+            android:parentActivityName=".navigation" />
+        <activity
+            android:name=".question14"
+            android:parentActivityName=".navigation" />
+        <activity
+            android:name=".styechalazion"
+            android:parentActivityName=".navigation" />
+        <activity
+            android:name=".allergicrhinitis"
+            android:parentActivityName=".navigation" />
+        <activity
+            android:name=".dacryocystits"
+            android:parentActivityName=".navigation" />
+        <activity
+            android:name=".question9a"
+            android:parentActivityName=".navigation" />
+        <activity
+            android:name=".question9b"
+            android:parentActivityName=".navigation" />
+        <activity
+            android:name=".question9c"
+            android:parentActivityName=".navigation" />
+        <activity
+            android:name=".question9d"
+            android:parentActivityName=".navigation" />
+        <activity
+            android:name=".question9e"
+            android:parentActivityName=".navigation" />
+        <activity
+            android:name=".question10"
+            android:parentActivityName=".navigation" />
+        <activity
+            android:name=".question10a"
+            android:parentActivityName=".navigation" />
+        <activity
+            android:name=".question10c"
+            android:parentActivityName=".navigation" />
+        <activity
+            android:name=".question11a"
+            android:parentActivityName=".navigation" />
+        <activity
+            android:name=".question11b"
+            android:parentActivityName=".navigation" />
+        <activity
+            android:name=".question11c"
+            android:parentActivityName=".navigation" />
+        <activity
+            android:name=".measles"
+            android:parentActivityName=".navigation" />
+        <activity
+            android:name=".question2"
+            android:parentActivityName=".navigation" />
+        <activity
+            android:name=".dryeyessyndrome"
+            android:parentActivityName=".navigation" />
+        <activity
+            android:name=".allergyanaphylaxis"
+            android:parentActivityName=".navigation" />
+        <activity
+            android:name=".bacterialconjunctivitis"
+            android:parentActivityName=".navigation" />
+        <activity
+            android:name=".bellspalsy"
+            android:parentActivityName=".navigation" />
+        <activity
+            android:name=".blepharitis"
+            android:parentActivityName=".navigation" />
+        <activity
+            android:name=".cornealulcer"
+            android:parentActivityName=".navigation" />
+        <activity
+            android:name=".viralconjunctivitis"
+            android:parentActivityName=".navigation" />
+        <activity
+            android:name=".LogoActivity"
+            android:theme="@style/MyTheme.NoActionBar" />
+        <activity
+            android:name=".navigation"
+            android:configChanges="orientation"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/MyTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".signlogin" />
+        <activity android:name=".signup" />
+        <activity android:name=".login" />
+        <activity
+            android:name=".image"
+            android:parentActivityName=".navigation" />
+        <activity
+            android:name=".diseasedetails"
+            android:parentActivityName=".navigation" />
+        <activity
+            android:name=".aboutus"
+            android:exported="true"
+            android:parentActivityName=".navigation" />
+        <activity
+            android:name=".feedback"
+            android:parentActivityName=".navigation" />
+        <activity
+            android:name=".opengallery"
+            android:parentActivityName=".navigation" />
+        <activity
+            android:name=".a1"
+            android:parentActivityName=".navigation" />
+        <activity
+            android:name=".a2"
+            android:parentActivityName=".navigation" />
+        <activity
+            android:name=".a3"
+            android:parentActivityName=".navigation" />
+        <activity
+            android:name=".a4"
+            android:parentActivityName=".navigation" />
+        <activity
+            android:name=".a5"
+            android:parentActivityName=".navigation" />
+        <activity
+            android:name=".a6"
+            android:parentActivityName=".navigation" />
+        <activity
+            android:name=".a7"
+            android:parentActivityName=".navigation" />
+        <activity
+            android:name=".a8"
+            android:parentActivityName=".navigation" />
+        <activity
+            android:name=".a9"
+            android:parentActivityName=".navigation" />
+        <activity
+            android:name=".a10"
+            android:parentActivityName=".navigation" />
+        <activity
+            android:name=".a11"
+            android:parentActivityName=".navigation" />
+        <activity
+            android:name=".a12"
+            android:parentActivityName=".navigation" />
+        <activity
+            android:name=".a13"
+            android:parentActivityName=".navigation" />
+        <activity
+            android:name=".a14"
+            android:parentActivityName=".navigation" />
+        <activity
+            android:name=".camera"
+            android:parentActivityName=".navigation" />
+        <activity
+            android:name=".acuteglaucomaresult"
+            android:exported="true" />
+        <activity
+            android:name=".MapsActivity"
+            android:label="@string/title_activity_maps" />
+        <activity
+            android:name=".detection"
+            android:exported="true"
+            android:parentActivityName=".navigation" />
+        <activity
+            android:name=".compare"
+            android:parentActivityName=".navigation" />
+        <activity
+            android:name=".keratitisresult"
+            android:exported="true" />
+        <activity
+            android:name=".styeresult"
+            android:exported="true" />
+        <activity
+            android:name=".allergicconjunctivitisresult"
+            android:exported="true" />
+        <activity android:name=".blepharitisresult" />
+        <activity android:name=".allergyanaphylaxisresult" />
+        <activity
+            android:name=".history"
+            android:parentActivityName=".navigation" />
+        <activity
+            android:name=".progress"
+            android:parentActivityName=".navigation" />
+        <activity
+            android:name=".howtouseapp"
+            android:parentActivityName=".navigation" />
+        <activity
+            android:name=".welcome"
+            android:theme="@style/MyTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".docpat" />
+        <activity android:name=".chatdoc" />
+        <activity android:name=".signlogindoc" />
+        <activity android:name=".signupdoc" />
+        <activity android:name=".logindoc"></activity>
+    </application>
+
+</manifest>

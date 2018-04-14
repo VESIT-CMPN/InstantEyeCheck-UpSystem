@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:fitsSystemWindows="true"
+    android:gravity="left|top"
+    tools:context="com.example.admin.instanteyecheck_upsystem.diseasedetails">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent">
+
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="80dp"
+        android:text="Keratitis"
+        android:id="@+id/b1"
+        android:textSize="21dp"
+        android:background="@drawable/bg_button"
+        android:textColor="#ffffff"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="80dp"
+        />
+
+
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="80dp"
+        android:text="Acute Glaucoma"
+        android:id="@+id/b2"
+        android:textSize="21dp"
+        android:background="@drawable/bg_button"
+        android:textColor="#ffffff"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="80dp"
+        />
+
+
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="80dp"
+        android:text="Measles"
+        android:id="@+id/b3"
+        android:textSize="21dp"
+        android:background="@drawable/bg_button"
+        android:textColor="#ffffff"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="80dp"
+        />
+
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="80dp"
+        android:text="Allergy anaphylaxis"
+        android:id="@+id/b4"
+        android:textSize="21dp"
+        android:background="@drawable/bg_button"
+        android:textColor="#ffffff"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="80dp"
+        />
+
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="80dp"
+        android:text="Corneal abrasion"
+        android:id="@+id/b5"
+        android:textSize="21dp"
+        android:background="@drawable/bg_button"
+        android:textColor="#ffffff"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="80dp"
+        />
+
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="80dp"
+        android:text="Stye Chalazion"
+        android:id="@+id/b6"
+        android:textSize="21dp"
+        android:background="@drawable/bg_button"
+        android:textColor="#ffffff"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="80dp"
+        />
+
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="80dp"
+        android:text="Bell’s palsy"
+        android:id="@+id/b7"
+        android:textSize="21dp"
+        android:background="@drawable/bg_button"
+        android:textColor="#ffffff"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="80dp"
+        />
+
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="80dp"
+        android:text="Dry eyes syndrome"
+        android:id="@+id/b8"
+        android:textSize="21dp"
+        android:background="@drawable/bg_button"
+        android:textColor="#ffffff"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="80dp"
+        />
+
+        <Button
+            android:layout_width="250dp"
+            android:layout_height="80dp"
+        android:text="Bacterial conjunctivitis"
+        android:id="@+id/b9"
+        android:textSize="21dp"
+        android:background="@drawable/bg_button"
+        android:textColor="#ffffff"
+            android:layout_marginTop="50dp"
+            android:layout_marginLeft="80dp"/>
+
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="80dp"
+        android:text="Blepharitis"
+        android:id="@+id/b10"
+        android:textSize="21dp"
+        android:background="@drawable/bg_button"
+        android:textColor="#ffffff"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="80dp"
+        />
+
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="80dp"
+        android:text="Viral conjunctivitis"
+        android:id="@+id/b11"
+        android:textSize="21dp"
+        android:background="@drawable/bg_button"
+        android:textColor="#ffffff"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="80dp"
+        />
+
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="80dp"
+        android:text="allergic rhinitis"
+        android:id="@+id/b12"
+        android:textSize="21dp"
+        android:background="@drawable/bg_button"
+        android:textColor="#ffffff"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="80dp"
+        />
+
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="80dp"
+        android:text="stye"
+        android:id="@+id/b13"
+        android:textSize="21dp"
+        android:background="@drawable/bg_button"
+        android:textColor="#ffffff"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="80dp"
+        />
+
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="80dp"
+        android:text="allergic conjunctivitis"
+        android:id="@+id/b14"
+        android:textSize="21dp"
+        android:background="@drawable/bg_button"
+        android:textColor="#ffffff"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginBottom="50dp"
+        />
+
+
+</LinearLayout>
+</ScrollView>
